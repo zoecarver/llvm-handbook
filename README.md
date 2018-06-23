@@ -1,6 +1,6 @@
 # An LLVM handbook
 # Disclamer!
-This --tutorial-- handbook is under development and **Not done!**
+This ~~tutorial~~ handbook is under development and **Not done!**
 ## Intro
 This is not meant to be a guid to building a toy language, or a comprehensive documentation of the llvm API. It is meant to be an explanation (with examples) of how to use some llvm api's that I find I use often. 
 
