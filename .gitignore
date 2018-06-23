@@ -1,2 +1,6 @@
 # cmake / make stuff
-examples/*Make*
+examples/CMakeFiles
+examples/CMakeCache.txt
+examples/Makefile
+examples/cmake_install.cmake
+
