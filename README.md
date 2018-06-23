@@ -158,6 +158,15 @@ There are a few different things going on here:
 5. The body of the function is created. Any values you create here will be part of the function body. 
 6. A return value is created.
 
+When compiled, here is what the function looks like:
+```assembly
+define i32 @inc(i32 %foo) {
+entry:
+  %addtmp = add i32 %foo, 1
+  ret i32 %addtmp
+}
+```
+
 ## Variables and alloca
 Allocas can be used to store values. An alloca is basically just a pointer to a type that can be set. Here are some examples:
 
